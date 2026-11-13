@@ -1,0 +1,23 @@
+# Dependencies and local package caches
+node_modules/
+.cache/
+.npm/
+
+# Build output
+dist/
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
